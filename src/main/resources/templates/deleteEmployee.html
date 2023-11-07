@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delete Employee</title>
+</head>
+<body>
+    <h1>Delete Employee by ID</h1>
+    
+    <form action="/employee/delete" method="post">
+    	<label for="id">ID:</label>
+        <input type="Long" name="Id" required> <br>
+        
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" ><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" ><br>
+
+        <label for="departmentId">Department ID:</label>
+        <input type="text" id="departmentId" name="departmentId" ><br>
+
+        <button type="submit">Delete Employee</button>
+    </form>
+</body>
+</html>

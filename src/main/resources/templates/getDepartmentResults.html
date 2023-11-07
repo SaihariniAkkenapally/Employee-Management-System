@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Read Department by ID</title>
+</head>
+<body>
+    <div >
+        <h2>Department Information</h2>
+        <p><strong>ID:</strong> <span th:text="${department.getDepartmentId()}"></span></p>
+        <p><strong>Name:</strong> <span th:text="${department.getDepartmentName()}"></span></p>
+    </div>
+</body>
+</html>

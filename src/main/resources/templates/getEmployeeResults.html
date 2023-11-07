@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Get Employee</title>
+</head>
+<body>   
+    <div>
+        <h2>Employee Information</h2>
+        <p><strong>ID:</strong> <span th:text="${employee.getEmployeeId()}"></span></p>
+        <p><strong>First Name:</strong> <span th:text="${employee.getFirstName()}"></span></p>
+        <p><strong>Last Name:</strong> <span th:text="${employee.getLastName()}"></span></p>
+        <p><strong>Email:</strong> <span th:text="${employee.getEmail()}"></span></p>
+    </div>
+</body>
+</html>
